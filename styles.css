@@ -1,5 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: "Lexend Deca", sans-serif;
+    background: radial-gradient(ellipse at bottom, #be85e6 0%,#160f28 100%);
+    background-attachment: fixed;
+    margin-top: 150px; 
+}
+header{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+header h1{
+    font-size: 32px;
+    color:white;
+    font-weight: 700;
+}
+nav a{
+    position: relative;
+    text-decoration: None;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+}
+nav a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: white;
+}
+nav a:hover::before{
+    width: 100%;
+}
+#centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+#centro img{
+    height: 28rem;
+    width: 28rem;
+    border-radius: 100%;
+}
+#caja-sobre{
+
 }
