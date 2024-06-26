@@ -60,6 +60,6 @@ nav a:hover::before{
     width: 28rem;
     border-radius: 100%;
 }
-#caja-sobre{
-
+#centro p{
+    background-color: white;
 }
