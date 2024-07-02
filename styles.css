@@ -54,12 +54,28 @@ nav a:hover::before{
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
+    margin-bottom: 5rem;
 }
 #centro img{
-    height: 28rem;
-    width: 28rem;
+    height: 26rem;
+    width: 26rem;
     border-radius: 100%;
+    box-shadow: 0px 2px 15px 2px;
+}
+#caja-sobre{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 15px 2px;
 }
 #centro p{
-    background-color: white;
+    margin-top: 1rem;
+    text-align: justify;
+}
+#centro h2, #sobremi h2{
+    text-align: center;
+}
+#sobremi h2{
+    color: white;
+    margin-bottom: 5rem;
 }
