@@ -1,53 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/lauraic.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="background.css">
     <title>Laura Rodríguez | Desarrolladora Web</title>
 </head>
+
 <body>
     <header>
+        <img src="imagenes/laura.gif" alt="letral">
         <h1>Laura Rodríguez</h1>
         <!--Barra de navegación-->
         <nav>
             <ul>
-                <a href="#sobremi">Sobre mí</a>
-                <a href="#habilidades">Habilidades</a>
+                <a href="#sobremi">Mas sobre mí</a>
+                <a href="#habilidades">Skills</a>
                 <a href="#proyectos">Proyectos</a>
                 <a href="#contacto">Contacto</a>
             </ul>
         </nav>
     </header>
+      <!--Estrellas de fondo (fuente: https://github.com/WebDevSHORTS/Parallax-Star-Background)-->
+    <section class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </section>
     <!--Seccion central-->
     <section id="centro">
         <img src="imagenes/portada.gif" alt="portada" id="img-pr">
         <div id="caja-sobre">
             <h2>Sobre mi</h2>
             <p>
-                ¡Hola! Soy Laura Rodríguez, una entusiasta del desarrollo web de Floridablanca, Colombia. Actualmente, estoy aprendiendo HTML, CSS y JavaScript, y tengo conocimientos básicos en Python. Aunque aún no cuento con experiencia profesional, tengo una gran pasión por la programación y disfruto creando soluciones visualmente atractivas y funcionales a través del código.
+                ¡Hola! Soy Laura Rodríguez, una entusiasta del desarrollo web de Floridablanca, Colombia. Actualmente,
+                estoy aprendiendo HTML, CSS y JavaScript, y tengo conocimientos básicos en Python. Aunque aún no cuento
+                con experiencia profesional, tengo una gran pasión por la programación y disfruto creando soluciones
+                visualmente atractivas y funcionales a través del código.
             </p>
         </div>
     </section>
     <!--Sección más sobre mí-->
     <section id="sobremi">
         <h2>Más sobre mí</h2>
-        <h3>Mi filosofía</h3>
-        <p>
-            Creo en el poder de la tecnología para mejorar nuestras vidas y en la importancia de un buen diseño para hacer que la tecnología sea accesible y atractiva para todos. Soy una persona curiosa, dedicada y responsable y en base a estos valores guío mi proceso de aprendizaje y enfoque en el trabajo. 
-        </p>
-        <h3>Educación y certificaciones</h3>
-        <p>
-            <ul>
-                <li><strong>Estudiante de Ingenieria de Sistemas</strong> - Universidad Industrial de Santander (UIS)</li>
-                <li><strong>Curso de Python</strong> - Campuslands</li>
-                <li><strong>Curso de HTML + CSS</strong> - Campuslands</li>
-            </ul>
-        </p>
-        <h3>Intereses personales</h3>
-        <p>
-            En mi tiempo libre, me encanta leer, escuchar música, hacer caminatas y disfrutar del aire libre. Además, me apasiona estar siempre aprendiendo cosas nuevas y expandiendo mis conocimientos. 
-        </p>
+        <div class="timeline">
+            <div class="time-container left-container">
+                <img src="imagenes/filosofia.gif" alt="filosofia">
+                <div class="time-texto">
+                    <h3>Mi filosofía</h3>
+                    <p>
+                        Creo en el poder de la tecnología para mejorar nuestras vidas y en la importancia de un buen
+                        diseño para
+                        hacer que la tecnología sea accesible y atractiva para todos. Soy una persona curiosa, dedicada
+                        y
+                        responsable y en base a estos valores guío mi proceso de aprendizaje y enfoque en el trabajo.
+                    </p>
+                </div>
+            </div>
+            <div class="time-container right-container">
+                <img src="imagenes/diploma.gif" alt="certificado">
+                <div class="time-texto">
+                    <h3>Educación y certificaciones</h3>
+                    <p>
+                    <ul>
+                        <li><strong>Estudiante de Ingenieria de Sistemas</strong> - Universidad Industrial de Santander
+                            (UIS)
+                        </li>
+                        <li><strong>Curso de Python</strong> - Campuslands</li>
+                        <li><strong>Curso de HTML + CSS</strong> - Campuslands</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="time-container left-container">
+                <img src="imagenes/leer.gif" alt="lectura">
+                <div class="time-texto">
+                    <h3>Intereses personales</h3>
+                    <p>
+                        En mi tiempo libre, me encanta leer, escuchar música, hacer caminatas y disfrutar del aire
+                        libre.
+                        Además, me apasiona estar siempre aprendiendo cosas nuevas y expandiendo mis conocimientos.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
     <!--Sección habilidades-->
     <section id="habilidades">
@@ -61,45 +100,70 @@
     <!--Sección de proyectos-->
     <section id="proyectos">
         <h2>Mis proyectos</h2>
-        <h3>Calculadora interactiva</h3>
-        <p>
-            Calculadora interactiva que te permite realizar operaciones matemáticas básicas de manera sencilla y rápida. Incorpora funciones adicionales como la posibilidad de cambiar entre temas de diseño para personalizar tu experiencia de usuario, y un historial de operaciones para revisar tus cálculos anteriores.
-        </p>
-        <img src="imagenes/calculadora.gif" alt="">
-        <h3>Aplicación de clima</h3>
-        <p>
-            Esta aplicación de clima te proporciona información precisa sobre las condiciones actuales y pronósticos para diversas ubicaciones. Utiliza datos en tiempo real obtenidos a través de una API de servicios meteorológicos, asegurando que siempre estés informado sobre el clima donde te encuentres.
-        </p>
-        <img src="imagenes/aplicaciontiempo.gif" alt="">
-        <h3>Juego de memoria</h3>
-        <p>
-            Diviértete con mi juego de memoria, donde puedes poner a prueba tu capacidad de recordar y asociar imágenes. Ofrece diferentes niveles de dificultad para desafiar tus habilidades y un sistema de puntuación para motivarte a mejorar tus resultados en cada partida.
-        </p>
-        <img src="imagenes/juegomemoria.gif" alt="">
+        <div class="proyecto-container">
+            <div class="tarjeta-container">
+                <h3>Calculadora interactiva</h3>
+                <p>
+                    Calculadora interactiva que te permite realizar operaciones matemáticas básicas de manera sencilla y
+                    rápida.
+                    Incorpora funciones adicionales como la posibilidad de cambiar entre temas de diseño para
+                    personalizar tu
+                    experiencia de usuario, y un historial de operaciones para revisar tus cálculos anteriores.
+                </p>
+                <img src="imagenes/calculadora.gif" alt="">
+            </div>
+            <div class="tarjeta-container">
+                <h3>Aplicación de clima</h3>
+                <p>
+                    Esta aplicación de clima te proporciona información precisa sobre las condiciones actuales y
+                    pronósticos
+                    para diversas ubicaciones. Utiliza datos en tiempo real obtenidos a través de una API de servicios
+                    meteorológicos, asegurando que siempre estés informado sobre el clima donde te encuentres.
+                </p>
+                <img src="imagenes/aplicaciontiempo.gif" alt="">
+            </div>
+            <div class="tarjeta-container">
+                <h3>Juego de memoria</h3>
+                <p>
+                    Diviértete con mi juego de memoria, donde puedes poner a prueba tu capacidad de recordar y asociar
+                    imágenes.
+                    Ofrece diferentes niveles de dificultad para desafiar tus habilidades y un sistema de puntuación para
+                    motivarte a mejorar tus resultados en cada partida.
+                </p>
+                <img src="imagenes/juegomemoria.gif" alt="">
+            </div>
+        </div>
     </section>
     <!--Sección contacto-->
     <section id="contacto">
         <h2>Contactame</h2>
-        <form action="#" method="post">
-            <label for="name">Nombre</label>
-            <input type="text" name="enviar-nombre" id="name" placeholder="Escribe tu nombre" required>
-            <label for="email">Correo electrónico</label>
-            <input type="email" name="enviar-email" id="email" placeholder="Ingresa tu correo electrónico" required>
-            <label for="mensaje">Mensaje</label>
-            <textarea name="enviar-mensaje" id="mensaje" cols="60" rows="10" placeholder="Escribe tu mensaje" required></textarea>
-            <input type="submit" name="enviar" id="boton-submit">
-        </form>
+        <div class="formulario-container">
+            <form action="#" method="post">
+                <div class="control-formulario">
+                    <label for="name">Nombre: </label>
+                    <input type="text" name="enviar-nombre" id="name" placeholder="Escribe tu nombre" required>
+                </div>
+                <div class="control-formulario">
+                    <label for="email">Correo electrónico: </label>
+                    <input type="email" name="enviar-email" id="email" placeholder="Ingresa tu correo electrónico" required>
+                </div>
+                <div class="control-formulario">
+                    <label for="mensaje">Mensaje: </label>
+                    <textarea name="enviar-mensaje" id="mensaje" cols="60" rows="10" placeholder="Escribe tu mensaje"
+                    required></textarea>
+                </div>
+                <input type="submit" name="enviar" id="boton-submit">
+            </form>
+        </div>
     </section>
     <!--Sección para redes sociales-->
-    <section>
-        <a href="#" target="_blank"><img src="imagenes\facebook.png" alt="Facebook"></a>
-        <a href="#" target="_blank"><img src="imagenes\instagram.png" alt="Instagram"></a>
-        <a href="#" target="_blank"><img src="imagenes\youtube.png" alt="Youtube"></a>
-        <a href="#" target="_blank"><img src="imagenes\github2.png" alt="GitHub"></a>
-        <a href="#" target="_blank"><img src="imagenes\linkedin.png" alt="Linkedin"></a>
+    <section class="redes">
+        <a href="https://www.facebook.com/profile.php?id=100012688627817" target="_blank"><img src="imagenes\facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/laura12ndrea/" target="_blank"><img src="imagenes\instagram.png" alt="Instagram"></a>
+        <a href="https://www.youtube.com/channel/UCLM1MepI7htOZkbW4v2wZoQ" target="_blank"><img src="imagenes\youtube.png" alt="Youtube"></a>
+        <a href="https://github.com/laura2ndrea" target="_blank"><img src="imagenes\github2.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/laura-rodr%C3%ADguez-51aa92135/" target="_blank"><img src="imagenes\linkedin.png" alt="Linkedin"></a>
     </section>
-    <footer>
-        <p>Realizado por: Laura Rodríguez</p>
-    </footer>
 </body>
+
 </html>
