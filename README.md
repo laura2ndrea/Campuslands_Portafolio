@@ -15,19 +15,24 @@ Este proyecto es portafolio personal, creado como parte de la evaluación de hab
 - **Estado**: completado :white_check_mark:
 
 ### Sobre mí
-Información general. 
+Información general. <br><br>
+ <img src="/img_readme/sobremi.png" width="80%" alt="sobre-mi">
 
 ### Mas sobre mí 
-Información mas detallada. 
+Información mas detallada. <br><br>
+ <img src="/img_readme/massobremi.png" width="80%" alt="mas-sobre-mi">
 
 ### Skills
-Habilidades con las que cuento. 
+Habilidades con las que cuento. <br><br>
+ <img src="/img_readme/skills.png" width="80%" alt="skills">
 
 ### Proyectos 
-Proyectos en los que he trabajado. 
+Proyectos en los que he trabajado. <br><br>
+ <img src="/img_readme/proyectos.png" width="80%" alt="proyectos">
 
 ### Contacto 
-Formulario para contacto.  
+Formulario para contacto. <br><br>
+ <img src="/img_readme/contactame.png" width="80%" alt="contacto">
 
 
 > [!NOTE]
