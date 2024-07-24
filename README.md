@@ -14,8 +14,21 @@ Este proyecto es portafolio personal, creado como parte de la evaluación de hab
 
 - **Estado**: completado :white_check_mark:
 
-### Sección principal 
-### 
+### Sobre mí
+Información general. 
+
+### Mas sobre mí 
+Información mas detallada. 
+
+### Skills
+Habilidades con las que cuento. 
+
+### Proyectos 
+Proyectos en los que he trabajado. 
+
+### Contacto 
+Formulario para contacto.  
+
 
 > [!NOTE]
 >El fondo estrellado, fue sacado de [FondoEstrellado](https://github.com/WebDevSHORTS/Parallax-Star-Background)
