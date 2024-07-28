@@ -4,7 +4,7 @@ Este proyecto es portafolio personal, creado como parte de la evaluación de hab
 ## Contenido 
 1. [Información general](#info-general)
 2. [Tecnologías](#tecno)
-3. [Instalacion](#install)
+3. [Instalacion y ejecución](#install)
 4. [Autores](#autores)
 
 ---
@@ -48,7 +48,7 @@ Formulario para contacto. <br><br>
 
 ---
 
-## Instalación :wrench:
+## Instalación y ejecución :wrench:
 <a name="install"></a>
 
 ### Requisitos 
